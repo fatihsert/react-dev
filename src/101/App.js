@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import "./App.css";
 import Navbar from "./Navbar";
-import User from "./User";
-import NavbarItem from "./NavbarItem";
 import Card from "./Card";
 import Users from "./Users";
 export default class App extends Component {
+ 
+
   state = {
     cards: [
       {
@@ -46,21 +46,21 @@ export default class App extends Component {
       },
     ],
     navs: [
-      { link: "/", text: "Home", isActive: true  ,id:1},
-      { link: "/", text: "About" , isActive: false ,id:2},
-      { link: "/", text: "Help" , isActive: false ,id:3},
-      { link: "/", text: "Pricing" , isActive: false ,id:4}
+      { link: "/", text: "Home", isActive: true, id: 1 },
+      { link: "/", text: "About", isActive: false, id: 2 },
+      { link: "/", text: "Help", isActive: false, id: 3 },
+      { link: "/", text: "Pricing", isActive: false, id: 4 },
     ],
   };
 
+  
+  navITemClick = (nav) => {
+    const { navs } = this.state;
 
-  navITemClick=(nav)=>{
-   const {navs}=this.state;
-
-   for(let i=0;i<navs.length;i++){
-     navs[i].isActive=navs[i].id==nav.id;
-   }
-   this.setState({navs:navs});
+    for (let i = 0; i < navs.length; i++) {
+      navs[i].isActive = navs[i].id == nav.id;
+    }
+    this.setState({ navs: navs });
   };
 
   render() {
@@ -68,6 +68,7 @@ export default class App extends Component {
 
     return (
       <div>
+        {/* prop drilling */}
         <Navbar title="hello" navs={navs} navITemClick={this.navITemClick}>
           {/* <NavbarItem text="Home" link="/" />
           <NavbarItem text="About" link="/" />
