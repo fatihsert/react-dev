@@ -36,14 +36,25 @@
 //   document.getElementById("root")
 // );
 
+// import React from "react";
+// import ReactDOM from "react-dom";
+// import App from "./104/App";
+// import { UserProvider } from "./104/Context";
+
+// ReactDOM.render(
+//   <UserProvider>
+//     <App />
+//   </UserProvider>,
+//   document.getElementById("root")
+// );
+
+
+
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./104/App";
-import { UserProvider } from "./104/Context";
+import App from "./105/App";
 
 ReactDOM.render(
-  <UserProvider>
-    <App />
-  </UserProvider>,
+    <App />,
   document.getElementById("root")
 );
