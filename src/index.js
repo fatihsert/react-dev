@@ -50,11 +50,26 @@
 
 
 
+// import React from "react";
+// import ReactDOM from "react-dom";
+// import App from "./105/App";
+
+// ReactDOM.render(
+//     <App />,
+//   document.getElementById("root")
+// );
+
+
+
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./105/App";
+import App from "./106/App";
+import { UserProvider } from "./106/Context";
 
 ReactDOM.render(
-    <App />,
+  <UserProvider>
+    <App />
+  </UserProvider>,
   document.getElementById("root")
 );
+
