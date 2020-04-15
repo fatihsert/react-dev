@@ -80,6 +80,7 @@ export class UserProvider extends Component {
   };
 
   render() {
+    debugger;
     return (
       <userContext.Provider value={this.state}>
         {this.props.children}

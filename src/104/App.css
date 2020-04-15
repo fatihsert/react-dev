@@ -1,0 +1,8 @@
+.user-list
+{
+    border: 1px solid #ccc;
+    margin: 40px;
+    width: 350px;
+    box-sizing: border-box;
+    padding: 10px;
+}

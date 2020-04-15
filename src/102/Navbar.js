@@ -13,7 +13,7 @@ export default class Navbar extends Component {
         {(value) => {
           const { title, navs, navITemClick } = this.props;
           const {dispatch}=value;
-
+debugger;
           return (
             <div>
               <header>
