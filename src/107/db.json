@@ -1,0 +1,15 @@
+{
+  "categories": [
+    { "categoryId": 1, "categoryName": "Beverages" },
+    { "categoryId": 2, "categoryName": "Condiment" },
+    { "categoryId": 3, "categoryName": "Snack" }    
+  ],
+  "products": [
+    { "id": 1, "categoryId": 1 ,"name":"water"},
+    { "id": 2, "categoryId": 1 ,"name":"mineral water"},
+    { "id": 3, "categoryId": 2 ,"name":"ketchup"},
+    { "id": 4, "categoryId": 2 ,"name":"BBQ"},
+    { "id": 5, "categoryId": 3 ,"name":"French fries"}
+
+  ]
+}

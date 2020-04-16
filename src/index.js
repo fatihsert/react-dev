@@ -61,15 +61,28 @@
 
 
 
+// import React from "react";
+// import ReactDOM from "react-dom";
+// import App from "./106/App";
+// import { UserProvider } from "./106/Context";
+
+// ReactDOM.render(
+//   <UserProvider>
+//     <App />
+//   </UserProvider>,
+//   document.getElementById("root")
+// );
+
+
+
+
+
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./106/App";
-import { UserProvider } from "./106/Context";
+import App from "./107/App";
+import 'bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.render(
-  <UserProvider>
-    <App />
-  </UserProvider>,
+    <App />,
   document.getElementById("root")
 );
-
