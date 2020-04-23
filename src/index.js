@@ -89,12 +89,22 @@
 //   document.getElementById("root")
 // );
 
+// import React from "react";
+// import ReactDOM from "react-dom";
+// import App from "./109/App";
+// import "bootstrap/dist/css/bootstrap.css";
+
+// ReactDOM.render(
+//     <App />,
+//   document.getElementById("root")
+// );
+
+
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./109/App";
-import "bootstrap/dist/css/bootstrap.css";
+import RxjsTest from "./110/RxjsTest";
 
 ReactDOM.render(
-    <App />,
+    <RxjsTest />,
   document.getElementById("root")
 );
